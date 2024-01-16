@@ -1,0 +1,72 @@
+#mapa {
+    grid-area: mapa;
+}
+
+#direccion {
+    grid-area: direccion;
+}
+
+#formulario {
+    grid-area: formulario;
+}
+
+@media (min-width: 768px) {
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "mapa formulario"
+            "direccion none";
+        grid-column-gap: 25px;
+        grid-row-gap: 20px;
+    }
+}
+
+/* @media (max-width: 767px) {
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "mapa"
+            "direccion"
+            "formulario"
+        ;
+        grid-row-gap: 20px;
+    }
+}
+ */
+
+.form-label {
+    font-weight: 600;
+}
+
+#title-redes {
+    color: #831f3f;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+
+.redes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#subtitle-redes {
+    font-weight: 500; 
+}
