@@ -16,8 +16,4 @@ Este proyecto utiliza las siguientes tecnologías:
 - **HTML5**: Estructura del contenido de la página.
 - **CSS3**: Estilos y diseño para una experiencia visual atractiva.
 - **JavaScript**: Interactividad y funcionalidades dinámicas.
-<<<<<<< HEAD
 - **Bootstrap**: Framework CSS para un diseño receptivo y componentes preestablecidos.
-=======
-- **Bootstrap**: Framework CSS para un diseño receptivo y componentes preestablecidos.
->>>>>>> 0067675060401f9b7e7895d5b63b045466ef753e
