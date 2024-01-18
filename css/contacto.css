@@ -23,23 +23,30 @@
     }
 }
 
-/* @media (max-width: 767px) {
-    .contact {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-            "mapa"
-            "direccion"
-            "formulario"
-        ;
-        grid-row-gap: 20px;
-    }
+.edmjn {
+    color: #831f3f;
+    font-weight: 600;
+    font-size: x-large;
 }
- */
+
+.datos {
+    font-weight: 600;
+}
+
+.datos>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
 
 .form-label {
     font-weight: 600;
+}
+
+#enviarConsulta {
+    float: left;
+    background-color: #831f3f;
+    color: white;
 }
 
 #title-redes {
@@ -68,5 +75,5 @@
 }
 
 #subtitle-redes {
-    font-weight: 500; 
+    font-weight: 500;
 }

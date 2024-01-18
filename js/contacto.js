@@ -1,13 +1,3 @@
-
-/* 
-function enviarConsulta(e, form) {
-    alert("Consulta enviada con éxito");
-    e.preventDefault();
-    form.reset();
-}
- */
-
-
 let enviarConsulta = document.getElementById('enviarConsulta');
 
 let misConsultas = []

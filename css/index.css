@@ -22,7 +22,6 @@ nav>a {
     padding: 15px;
 /*     width: 100%; */
     transition: 0.3s;
-
     min-width: 150px;
     flex: 1;
 }
@@ -31,34 +30,31 @@ nav>a:hover {
     background-color: rgb(148, 55, 75)
 }
 
+.inicio-sesion {
+    font-weight: 500;
+}
+
 .carrusel {
     width: 50%;
 }
 
-
-/* FOOTER VIEJO
-footer {
-    background-color: #9f94862f;
-    padding: 10px 50px;
+body {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    min-height: 100vh;
 }
-
-footer b {
-    color: #831f3f;
-}
-
-.box {
-    width: 300px;
-} */
-
 
 footer {
     background-color: #9f94862f;
     padding: 10px 20px;
     align-items: center;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .col {
+    padding-left: 1.5rem;
 }
 
 footer h5 {
