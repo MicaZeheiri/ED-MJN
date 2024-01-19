@@ -1,3 +1,55 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+/* header {
+    display: block;
+} */
+.logo-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav {
+    background-color: rgb(148, 16, 44);
+    display: flex;
+    /*     flex-wrap: wrap;
+    justify-content: space-around; */
+
+    /* position: sticky; */
+    overflow-x: auto;
+}
+
+nav>a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 15px;
+    /*     width: 100%; */
+    transition: 0.3s;
+    min-width: 150px;
+    flex: 1;
+}
+
+nav>a:hover {
+    background-color: rgb(148, 55, 75)
+}
+
+.inicio-sesion {
+    font-weight: 500;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .titulo-pestaña {
     display: flex;
     justify-content: center;
@@ -5,4 +57,45 @@
     margin-top: 30px;
     margin-bottom: 40px;
     font-size: xx-large;
+}
+
+
+footer {
+    background-color: #9f94862f;
+    padding: 10px 20px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .col {
+    padding-left: 1.5rem;
+}
+
+footer h5 {
+    color: #831f3f;
+}
+
+footer.row {
+    margin-left: 0;
+}
+
+.contacto {
+    text-decoration: none;
+    color: black;
+}
+
+.red-social {
+    display: inline-block;
+    height: 50px;
+    margin: 10px;
+}
+
+.red-social:hover {
+    background-color: #831f3f31;
+    /* border-radius: 15px; */
+    /* bien para ig */
+    border-radius: 11px;
+    /* ver mejor el borde */
 }
