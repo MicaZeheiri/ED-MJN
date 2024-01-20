@@ -19,10 +19,9 @@ const login = () => {
 
     if (dni == '43523433' && password == 'edmjn') {
         alert('Bienvenido alumno.');
-        window.sessionStorage.setItem('usuario', dni);
-        window.location.href = '../pages/alumno.html'
+        sessionStorage.setItem('usuario', JSON.stringify(dni));
+        location.href = 'alumno.html'
     } else {
-        alert('DNI o contraseña incorrectos')
-        return;
+        alert('DNI o contraseña incorrectos');
     }
 }

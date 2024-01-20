@@ -1,18 +1,38 @@
 .logo {
     display: block;
     margin: auto;
-    width: 15%;
+    width: 17%;
+    margin-left: 43%;
 }
 
-/* header {
-    display: block;
-} */
 .logo-nav {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.navbar1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.usuario {
+    width: 30px;
+    margin-right: 20px;
+    fill: #831f3f;
+}
+
+.dropdown-item {
+    color: rgb(148, 16, 44);
+    font-weight: 500;
+}
+
+.dropdown-item:hover {
+    color: rgb(148, 16, 44);
+    font-weight: 500;
+}
 
 nav {
     background-color: rgb(148, 16, 44);
@@ -99,3 +119,6 @@ footer.row {
     border-radius: 11px;
     /* ver mejor el borde */
 }
+
+
+
