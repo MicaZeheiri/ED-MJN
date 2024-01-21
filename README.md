@@ -21,4 +21,4 @@ Este proyecto utiliza las siguientes tecnologías:
 - **Bootstrap**: Framework CSS para un diseño receptivo y componentes preestablecidos.
 
 ## Inicio de sesión
-Si se quiere iniciar la sesión en la página use como DNI: 43523433 y como contraseña: edmjn.
+Si se quiere iniciar la sesión en la página use como DNI: **43523433** y como contraseña: **edmjn**.
