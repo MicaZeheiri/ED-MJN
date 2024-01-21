@@ -2,7 +2,7 @@ const galeriaContainer = document.getElementById('galeria');
 
 fetch('../imagenes.json')
   .then(response => response.json())
-    .then(data => {
+  .then(data => {
 
     const imagenes = data;
     imagenes.forEach(imagen => {
@@ -14,7 +14,7 @@ fetch('../imagenes.json')
       const imgElement = document.createElement('img');
       imgElement.src = imagen.ruta;
       imgElement.classList = '';
-   
+
 
       divElement.appendChild(imgElement);
       galeriaContainer.appendChild(divElement);

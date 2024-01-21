@@ -60,10 +60,6 @@ nav>a:hover {
     background-color: rgb(148, 55, 75)
 }
 
-.inicio-sesion {
-    font-weight: 500;
-}
-
 body {
     display: flex;
     flex-direction: column;

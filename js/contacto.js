@@ -3,7 +3,7 @@ let enviarConsulta = document.getElementById('enviarConsulta');
 let misConsultas = []
 
 enviarConsulta.addEventListener('click', (e) => {
-    
+
     e.preventDefault();
 
     if (miFormulario.checkValidity()) {
@@ -14,9 +14,9 @@ enviarConsulta.addEventListener('click', (e) => {
         let telefono = document.getElementById('telefono').value;
         let mensaje = document.getElementById('consulta').value;
 
-    cargarDatos(nombre, apellido, email, telefono, mensaje);
-    alert("Consulta enviada con éxito");
-    borrarDatosForm();
+        cargarDatos(nombre, apellido, email, telefono, mensaje);
+        alert("Consulta enviada con éxito");
+        borrarDatosForm();
     } else {
         alert('Por favor, complete todos los campos requeridos.');
     }
@@ -38,7 +38,7 @@ const cargarDatos = (nombre, apellido, email, telefono, mensaje) => {
 
     misConsultas.push(consulta);
 
-    localStorage.setItem('Consultas', JSON.stringify(misConsultas)); 
+    localStorage.setItem('Consultas', JSON.stringify(misConsultas));
 
     console.log(misConsultas);
 }

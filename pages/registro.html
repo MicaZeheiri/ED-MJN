@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,21 +12,24 @@
     <link rel="stylesheet" href="../css/pestañas.css">
     <link rel="stylesheet" href="../css/login.css">
 </head>
+
 <body>
 
     <header>
         <div class="navbar1">
-            <a href="../index.html" class="mx-auto"><img class="logo" src="../assets/logos/logo.png" alt="Logo María José Núñez"></a>
+            <a href="../index.html" class="mx-auto"><img class="logo" src="../assets/logos/logo.png"
+                    alt="Logo María José Núñez"></a>
             <div class="dropdown">
-                <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-person-circle usuario dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-person-circle usuario dropdown-toggle"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false" viewBox="0 0 16 16">
                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
                     <path fill-rule="evenodd"
                         d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
                 </svg>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="../pages/login.html">Iniciar Sesión</a></li>
-                    <li><button class="dropdown-item" id="cerrarSesionBtn" onclick="cerrarSesion()">Cerrar Sesión</button></li>
+                    <li><button class="dropdown-item" id="cerrarSesionBtn" onclick="cerrarSesion()">Cerrar
+                            Sesión</button></li>
                 </ul>
             </div>
         </div>
@@ -36,23 +40,24 @@
             <a href="./fotogalería.html">Fotogalería</a>
             <a href="./alquiler-salas.html">Alquiler de salas</a>
             <a href="./contacto.html">Contacto</a>
-            <a href="#" class="inicio-sesion" onclick="verificarSesion()">Mis clases y pagos</a>
+            <a href="#" onclick="verificarSesion()">Mis clases y pagos</a>
         </nav>
     </header>
 
     <div class="contenedor">
         <div class="login-form">
             <form>
-            <h3 class="mt-5 mb-4 fw-normal text-center">Registrarme</h3>
-            <div class="mt-4 mb-3">
-                <input type="text" class="form-content" placeholder="DNI" id="dni" required>
-            </div>
-            <div class="mb-3">
-                <input type="password" class="form-content" placeholder="Contraseña" id="password" required>
-            </div>
+                <h3 class="mt-5 mb-4 fw-normal text-center">Registrarme</h3>
+                <div class="mt-4 mb-3">
+                    <input type="text" class="form-content" placeholder="DNI" id="dni" required>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-content" placeholder="Contraseña" id="password" required>
+                </div>
 
-            <button type="button" class="btn mt-3" id="btn-ingresar" onclick="registrarCuenta()">Crear cuenta</button>
-        </form>
+                <button type="button" class="btn mt-3" id="btn-ingresar" onclick="registrarCuenta()">Crear
+                    cuenta</button>
+            </form>
         </div>
     </div>
 
@@ -62,7 +67,6 @@
                 <img src="../assets/logos/logo-sin-fondo.png" alt="Logo María José Núñez" width="70%">
             </a>
 
-            <!-- <p class="text-body-secondary">© 2023</p> -->
         </div>
 
         <div class="col mt-3 mb-3">
@@ -121,4 +125,5 @@
     <script src="../js/registro.js"></script>
 
 </body>
+
 </html>

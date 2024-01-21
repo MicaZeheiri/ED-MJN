@@ -19,5 +19,5 @@ function cerrarSesion() {
     } else {
         location.reload();
     }
-    verifySession(); 
+    verifySession();
 }
