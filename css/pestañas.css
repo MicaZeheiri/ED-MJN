@@ -37,10 +37,6 @@
 nav {
     background-color: rgb(148, 16, 44);
     display: flex;
-    /*     flex-wrap: wrap;
-    justify-content: space-around; */
-
-    /* position: sticky; */
     overflow-x: auto;
 }
 
@@ -50,9 +46,8 @@ nav>a {
     color: rgb(255, 255, 255);
     display: inline-block;
     padding: 15px;
-    /*     width: 100%; */
     transition: 0.3s;
-    min-width: 150px;
+    min-width: 163px;
     flex: 1;
 }
 
@@ -110,11 +105,5 @@ footer.row {
 
 .red-social:hover {
     background-color: #831f3f31;
-    /* border-radius: 15px; */
-    /* bien para ig */
     border-radius: 11px;
-    /* ver mejor el borde */
 }
-
-
-

@@ -22,7 +22,6 @@ h3 {
 .form-content {
     display: block;
     width: 100%;
-    /* appearance: none; */
     border: 1px solid #831f3f;
     border-radius: 6px;
     min-height: 40px;
