@@ -1,12 +1,3 @@
-let state = {
-    dni: '',
-    password: ''
-};
-
-function setState(newState) {
-    state = { ...state, ...newState };
-}
-
 const login = () => {
 
     const dni = document.getElementById('dni').value;
